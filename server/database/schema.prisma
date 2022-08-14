@@ -1,5 +1,5 @@
 datasource db {
-    url      = env("DATABASE_URL")
+    url      = "postgresql://lyjzjqjjduydoi:3767923b22b065c7d0d47d220d40facab7160f91eb2d39861715c50a0411212b@ec2-44-205-112-253.compute-1.amazonaws.com:5432/dfugt9o5fl9oi5?schema=public"
     provider = "postgresql"
 }
 

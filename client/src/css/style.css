@@ -1,0 +1,168 @@
+body {
+  width: 100vw;  
+  font-size: 16px;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  }
+  
+.container {
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.post {
+    width: 100%;
+    background-color: #F0FEFE;
+    margin-top: 10px;
+    border: 1px solid #F0FEFE;
+    padding: 10px 0 10px 10px;
+    border-radius: 10px;
+} 
+
+.postRov {
+    width: 98%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.postText {
+    flex-grow: 1;
+}
+
+.userName {
+    color: dimgray;
+    font-weight: 600;
+}
+
+button {
+    cursor: pointer;
+}
+
+.like {
+    background-color: #F0FEFE;
+    border: none;
+    font-size: 18px;
+    width: 100px;
+}
+
+.myButton {
+    background: #F0FEFE;
+    border: 1px #c0c0c0 solid;
+    padding: 10px;
+    border-radius: 5px;
+    width: 90px;
+}
+
+.modal {
+    position: fixed;
+    inset: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    text-align: center;
+    background-color: rgba(240, 254, 254, 0.8);
+}
+
+.formRow {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.formCol {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.labelForm {
+    margin-right: 10px;
+}
+
+.textPost {
+    width: 500px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+.myForm {
+    width: 500px;
+}
+
+.myHeader {
+  height: 40px;
+  width: 100%;
+  text-align: center;
+  margin: 20px;
+}
+
+.cancel {
+    height: 30px;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.send {
+    height: 60px;
+}
+
+input[type=text] {
+    word-wrap: break-word;
+    word-break: break-all;
+    height: 80px;
+}
+
+.center {
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.commentContainer {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px 0;
+}
+
+.comment {
+    display: flex;
+    flex-direction: column;
+    width: 80%;   
+}
+
+.commentRow {
+    height: 40px;
+    width: 100%;
+    padding-top: 10px;
+    background-color: #F0FFE0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bgGr {
+    background-color: #F0FFE0;
+}
+
+.commentText {
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.right {
+    margin-right: 20px;
+    margin-top: 10px;
+}
